@@ -1,0 +1,54 @@
+body {
+    background-color: lightcyan;
+    margin: 40px;
+}
+
+#header-div {
+    background-color: cyan;
+    /* margin: 0 400 0 400; */
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 10%;
+    padding-bottom: 150px;
+    /* margin-bottom: 500px; */
+}
+#input-div {
+    padding-top: 30px;
+    padding-left: 20px;
+    display: inline-block;
+}
+#input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+#button-div {
+    display: inline-block;
+}
+#button {
+    border: none;
+    color: lightcoral;
+    padding: 12px 12px;
+    text-align: center;
+    font-size: 14px;  
+}
+#next-div {
+    margin-left: 500px;
+    margin-top: 200px;
+    /* margin-top: 50px; */
+    /* padding-top: 150px; */
+}
+#next {
+    border: none;
+    color: lightcoral;
+    padding: 12px 35px 12px 35px ;
+    text-align: center;
+    font-size: 14px;
+  } 
+  
+
