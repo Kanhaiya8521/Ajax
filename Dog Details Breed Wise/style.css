@@ -1,54 +1,82 @@
 body {
-    background-color: lightcyan;
-    margin: 40px;
+    background-color: g=cyan;
+}
+form {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    background-image: linear-gradient(-90deg, floralwhite, azure)
 }
 
-#header-div {
-    background-color: cyan;
-    /* margin: 0 400 0 400; */
-    margin-left: 400px;
-    margin-right: 400px;
-    height: 10%;
-    padding-bottom: 150px;
-    /* margin-bottom: 500px; */
-}
-#input-div {
-    padding-top: 30px;
-    padding-left: 20px;
-    display: inline-block;
-}
-#input {
-  width: 90%;
-  padding: 12px 20px;
-  margin: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-
+#dog-breeds {
+    padding: 10px;
+    font-size: 1.3rem;
+    width: 30%;
+    min-width: 200px;
 }
 
-#button-div {
-    display: inline-block;
+#dog-breeds option {
+    padding: 10px;
+    font-size: 1rem;
 }
-#button {
-    border: none;
-    color: lightcoral;
-    padding: 12px 12px;
-    text-align: center;
-    font-size: 14px;  
+
+form label {
+    padding: 5px 0;
 }
-#next-div {
-    margin-left: 500px;
-    margin-top: 200px;
-    /* margin-top: 50px; */
-    /* padding-top: 150px; */
+form input {
+    padding: 5px;
 }
+
+button {
+    width: 150px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 0px 30px 2px red;
+}
+
+#image-next {
+    display: flex;
+    margin-top: 50px;
+    height: 400px;
+}
+
+#breed-image {
+    width: 60%;
+    min-width: 300px;
+    overflow: hideen;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#breed-image img {
+    max-height: 400px;
+    max-width: 100%;
+    min-height: 300px;
+}
+
 #next {
-    border: none;
-    color: lightcoral;
-    padding: 12px 35px 12px 35px ;
-    text-align: center;
-    font-size: 14px;
-  } 
-  
+    width: 40%;
+}
 
+#next a {
+    font-size: 1.5rem;
+    color: skyblue;
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    padding: 10px 20px;
+}
+
+#next a:hover {
+    box-shadow: 0px 0px 10px red;
+    text-shadow: 0px 0px 5px red;
+}

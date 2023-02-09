@@ -42,8 +42,6 @@ function fetchRandomDogImage() {
   }).fail(function(xhr, textStatus, errorThrown){
     console.log('Request failed');
   });
-
-
 }
 
 $('#fetch-dog-image-button').click(fetchRandomDogImage);

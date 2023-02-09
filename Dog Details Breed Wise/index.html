@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Dog Lovers</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header id="header-div">
-        <div id="input-div">
-            <input id="input" type="text" size="60">
+    <head>
+        <title>Dog Lovers</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="">
+            <select id="dog-breeds"></select>
+            <button type="submit">Get Imag</button>
+        </form>
+
+        <div id="image-next">
+            <div id="breed-image" class="flex-center"></div>
+
+            <div id="next" class="flex-center">
+                <a href="">Next&ensp;>></a>
+            </div>
         </div>
-        
-        <div id="button-div">
-            <button id="button">Get Image</button>
-        </div>
 
-        <div id="next-div">
-            <button id="next"> Next >> </button>
-        </div>
-    </header>
-
-    
-
-
-    <script src="script.js"></script>
-
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
