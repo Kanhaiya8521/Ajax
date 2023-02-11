@@ -5,10 +5,12 @@ var breed;
 
 $.get("https://dog.ceo/api/breeds/list/all", function (data, status) {
     let dogBreeds = data.message;
+    // console.log(typeof dogBreeds);
     for (let breed in dogBreeds) {
         dropdown.append('<option value="' + breed + '">' + breed + '</option>');
     }
 });
+console.log(breed);
 
 dropdown.change(function () {
     allowSubmit = true;
@@ -16,6 +18,7 @@ dropdown.change(function () {
 
 $("form button").click(function (e) {
     e.preventDefault();
+    console.log(e);
 
     if (allowSubmit) {
         breed = dropdown.val();

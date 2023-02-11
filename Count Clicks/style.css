@@ -1,0 +1,16 @@
+div {
+    cursor: pointer;
+    margin: auto;
+    width: 30%;
+    height: 15rem;
+    background-color: red;
+    /* border: 2px solid red; */
+
+}
+
+
+
+h3 {
+    text-align: center;
+    color: green;
+}
