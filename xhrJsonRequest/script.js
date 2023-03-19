@@ -2,9 +2,9 @@
 
 
 function fetchRandomDogImage() {
-
+  /*
     // fetch through XML request 1st method
-    /*
+   
   var xhrRequest = new XMLHttpRequest();
 
   xhrRequest.onload = function () {
@@ -21,8 +21,10 @@ function fetchRandomDogImage() {
   xhrRequest.send();
   */
 
-  // fetch through jQuery request 2nd methos
+
 /*
+  // fetch through jQuery request 2nd methos
+
   $.ajax({
     //put url in small not capital
     url: 'https://dog.ceo/api/breeds/image/random',
