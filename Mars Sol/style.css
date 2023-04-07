@@ -1,0 +1,40 @@
+body {
+    margin-top: 50px;
+    background-color: #fbfbf4;
+}
+div {
+    display: inline;
+    padding: 80px;
+}
+button {
+    margin-top: 20px;
+    height:44px;
+}
+input {
+    z-index: 1000;
+}
+#sol-input {
+    width: 300px;
+    height:40px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+#page-input {
+    width: 300px;
+    height:40px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nasa-images img {
+    max-height: 300px;
+    max-width: 70%;
+    min-height: 200px;
+    margin: 20px;
+}
