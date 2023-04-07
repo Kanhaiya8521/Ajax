@@ -1,0 +1,13 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nasa-images img {
+    max-height: 300px;
+    max-width: 70%;
+    min-height: 200px;
+    margin: 20px;
+}
+
